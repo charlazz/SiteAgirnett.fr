@@ -1,0 +1,344 @@
+/*ne pas oublier les point virgules, verifier les parenthèse carrées, ranger son code avec des commentaires, un point devant pour appeler un attribut.
+rem, px, seconde, et %, ne pas oublier des tirets entre les mots******/
+
+/********menu nav*/ 
+nav.menu-nav ul li.btn{
+
+    display:inline-block;
+    display:100px;
+    background-color:white;
+    list-style-type: none; 
+    padding: 0.5px;
+}
+
+
+nav.bg-light{
+    padding: 0.5rem 10rem;
+    background-color:#ffffff !important;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+nav.menu-nav ul li.btn:hover a{  /* hover= survole de la souris*/
+
+    color:white;
+
+    transition:0.3s all;
+}
+
+
+nav.menu-nav ul li.btn a{
+    text-decoration: none; 
+    color:black;
+}/*menu nav*************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/********page1 photo de couverture contenant photo*/
+.container-fluid{
+    
+    background-image: url(../IMG/handsanitiser.jpg) ;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachmentt: fixed;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+     }
+    
+logoA{
+
+    margin-top: 5rem;
+    vertical-align: middle;
+    border-style: none;
+
+}
+
+
+
+
+.container-fluid .sloganbleu{
+    
+    padding: 2rem 2rem;
+    font-size:22px;
+    cursor:text;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+    
+}
+.container-fluid  .sloganbleu:hover{
+    
+    margin-top: 1rem;
+    padding:3rem 3rem;
+    background-color: rgba(98, 98, 98, 0.18);
+}
+
+
+#presentation .media span {
+    
+    color:#396ea2;
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    background-color: transparent;
+    width:0rem;
+    text-align:center;
+} 
+
+
+#presentation{
+
+    color: rgba(13, 9, 9, 0.65);
+    font-family:"Helvetica Neue";
+    font-size-adjust: auto
+    
+    margin-top: 2rem;
+    text-align:start;
+    margin-left: 4rem;
+    margin-right: 10rem;
+    font-size:17px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;   
+}
+
+
+#presentation .text-justify{
+    
+    border-bottom:dashed;
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    
+}
+
+.ml-5{
+    
+}
+
+
+
+}/*page1 photo de couverture contenant photo*********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+container-fluid-f{
+   text-align: center;
+}
+
+
+
+
+/********page2 "nos activités, nos secteurs, nos préstations*/
+
+
+
+.container2{
+    padding-left: 4rem;
+    padding-right: 2rem;
+    align-items:baseline;
+}
+
+.col-sm-4{
+    border-left: inset;
+    border-left-color: rgba(255, 255, 255, 0.4);
+}
+
+.col-sm-4 p{
+   text-align:justify; 
+    text-align:center;
+}
+
+
+.fond {
+ background: url(../IMG/lustrercopiee.jpg) top center ;
+background-size: cover;
+ position:static; /* Le fond est fixé en haut de la page */
+    padding-top: 10em;
+    padding-bottom: 10em;
+ width: 100%; /* Il occupe toute la largeur de l'écran */
+ height: 300px; /* On met ici la même hauteur que le jumbotron */
+ top:0;
+ left:0;
+ z-index: -2;
+border-radius: 5px;
+}
+
+.jumbotron .font{
+    margin-top: -95px;
+    color:rgb(255, 255, 255);
+}
+
+
+.jumbotron  .texte{
+     padding: 1rem 1rem;
+    font-size:18px;
+    cursor:text;
+    border-radius: 3px;
+    transition: 0.4s ease-in-out;
+}
+
+
+.jumbotron .texte:hover{
+      margin-top: 1rem;
+    padding:1rem 1rem;
+    background-color: rgba(98, 98, 98, 0.18);
+}
+
+    
+  
+/*JUMBOTRON COMMUN*/
+.jumbotron text-center{
+    color:#2BAAF4;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+
+     }
+
+
+
+}/*page2 "nos activités, nos secteurs, nos préstations*/
+
+
+
+
+
+
+
+
+
+
+
+/********page3 "mail,tel,fax*/
+.container3{  
+    
+    align-content:center;
+    
+}
+
+.container3 .col-sm-4 .span{
+    
+    font-size:20px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+     }
+
+
+.container3 .col-sm-4{
+   
+    margin:0px;
+    
+    border-left:inset;
+    
+    border-left-color: rgba(255, 255, 255, 0.4);
+    align-items: justify;
+    
+}
+.phrasebleue{
+    width: 25rem;
+    align-content:center;
+    font-family:serif;
+    color:#2BAAF4;
+    border-bottom: dotted;
+
+   
+}
+
+.lnr-map-marker{
+    color:#2BAAF4;
+    
+
+}
+
+.lnr-map{
+    color:#2BAAF4;
+}
+/*page3 "mail,tel,fax********/
+
+
+/* page4*/
+.container4 .loca{
+    
+   margin-left: 1.5rem;
+    border right: inset;
+}
+
+
+
+
+.container5{
+    margin-left: 6rem;
+}
+/*page4***********/
+
+/*******FOOTER COMMUN*************************************************************************/
+    
+
+.footer-content{
+    padding: .5rem .5rem;
+    text-align: center;
+    background-color:rgba(233, 236, 239, 0.71);
+    color:#5f5f5f
+}
+
+.footer-content span{
+    font-size:4rem;
+    color:#2BAAF4;
+    transition:0.3s
+}
+    
+.footer-content span:hover{
+    color: rgba(0, 0, 0, 0.69);
+}    
+
+.footer-bottom{
+    
+    font-size:0.75rem;
+    background-color: #122e3b;
+    text-align: center;
+    color:#a3a3a3;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     
+
+
+
+
+
+
